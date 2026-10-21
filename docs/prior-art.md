@@ -62,6 +62,22 @@ Amazon's home coming to the front and opens the chosen launcher over it, plus a
 screensaver picker. States the key point in one line: Fire OS "does not hand the Home
 key to accessibility services".
 
+## cleanyourtv (October 2026) — the one with the reach
+
+- https://github.com/Gathin23/cleanyourtv
+- Created 2026-10-17, ~18k stars within four days.
+
+Mainly Android TV / Google TV, with Fire OS 6 and 8 device lists; replaces the stock
+home screen by disabling it, and rolls back if Home does not land on the new launcher.
+Its `docs/TROUBLESHOOTING.md` documents the same class of failure from the other side:
+`set-home-activity` can print `Success` while HOME still resolves to the stock launcher,
+per-app `android:priority` on a HOME filter is ignored for apps that are not on the
+system image, and `pm disable-user` on a stock component is refused with a
+`SecurityException`.
+
+Its approach depends on being able to disable the stock launcher, which is exactly what
+Fire OS 7.7 will not allow — hence the redirect problem this repo covers.
+
 ## Launcher Manager
 
 - https://xdaforums.com/t/app-firetv-noroot-launcher-manager-change-launcher-without-root.4176349
@@ -80,9 +96,24 @@ for what to enable in Projectivy instead.
 
 ## What is genuinely not covered elsewhere
 
-- The name of the component: **`AmazonInputSwitchService`**. GitHub code search returns
-  only ROM dumps and logcat captures; no write-up names it.
-- The **AFTSSS / Fire TV Stick 3rd gen** datapoint on PS7717/5741.
-- A **same-device, same-day comparison** of the alarm-based and normal-launch redirects
+Checked 2026-10-21 with GitHub code search, issue search, and web search:
+
+| Query | Result |
+|---|---|
+| `AmazonInputSwitchService`, code search | 21 hits — every one a ROM dump or a logcat capture |
+| `AmazonInputSwitchService`, issues/PRs | 4 hits — none about launchers except this repo's own Shelf report |
+| `AmazonInputSwitchService`, web | nothing on the Home key |
+
+So the narrow, defensible claims are:
+
+- **The name of the component:** `AmazonInputSwitchService`. Everyone else stops at
+  "Fire OS handles it before the accessibility filter". This repo names it, and says
+  plainly that the causal link is inferred rather than decompiled.
+- **The AFTSSS / Fire TV Stick 3rd gen datapoint** on PS7717/5741.
+- **A same-device, same-day comparison** of the alarm-based and normal-launch redirects
   (1.29 s vs 6.31 s), and the demonstration that deleting `min_futurity=0` collapses
   the fast path (1.7–4.0 s).
+
+Everything else here — the failure of `set-home-activity`, the protected packages, the
+5 s app-switch lock, the alarm workaround — is somebody else's earlier finding, credited
+above.

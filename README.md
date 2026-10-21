@@ -323,6 +323,7 @@ empty and it was not.
 | 2026-09-13 | [webserver-x.de](https://webserver-x.de/20260913/fire-tv-stick-alternative-launcher-home-button-without-root/) | UsageStats-driven watcher, no accessibility service, on 6.7.1.1 |
 | 2026-09-28 | [jeremykenedy/fire-tv-toolkit](https://github.com/jeremykenedy/fire-tv-toolkit/blob/main/docs/LAUNCHER.md) | "Fire OS does not hand the Home key to accessibility services"; a `Home Redirect` helper doing the same watch |
 | 2026-10-18 | [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv/blob/main/docs/HOW-IT-WORKS.md) | Same build (7.7.1.7) on a Fire TV Edition TV. `set-home-activity` ignored; HOME not interceptable; `APP_SWITCH_DELAY_TIME`; `alarm_manager_constants min_futurity=0`; overlay to hide the flash; protected packages; OTA via DNS |
+| 2026-10-17 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) — ~18k stars in 4 days | Android TV / Google TV focus with Fire OS 6 and 8 lists; disables the stock launcher and rolls back if Home does not land. Its troubleshooting docs cover `set-home-activity` reporting Success without effect, and `priority` being ignored for non-system HOME filters |
 | — | [Launcher Manager](https://xdaforums.com/t/app-firetv-noroot-launcher-manager-change-launcher-without-root.4176349) | Its own notice: does not work on Fire OS 7 PS7706 or newer |
 | — | [dknos/firetv-projectivy-fire-os-8](https://github.com/dknos/firetv-projectivy-fire-os-8) | What fails on 8.1.6.6, and what to configure instead |
 
