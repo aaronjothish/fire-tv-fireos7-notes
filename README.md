@@ -7,6 +7,8 @@ are in [`bench/logs/`](bench/logs/).
 **Device:** Fire TV Stick 3rd gen (`AFTSSS` / `sheldon`) · Fire OS **7.7.1.7**
 (PS7717/5741) · Amazon Fire TV Home `7321874.1` · Android 9 / API 28 · no root.
 
+**Discussion:** [XDA — Fire TV General](https://xdaforums.com/t/fire-os-7-7-1-7-the-home-key-is-eaten-by-amazoninputswitchservice-and-two-working-redirects-measured-1-3s-vs-6-3s.4805824/)
+
 ---
 
 ## Read this first: this is not a discovery

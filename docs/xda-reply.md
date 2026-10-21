@@ -1,9 +1,12 @@
 # Reply posted to the XDA thread (since deleted)
 
-**Status:** the thread and this reply were both removed by a moderator on 2026-10-21,
-"Deleted as requested" — the original poster asked for it to be taken down rather than
-leave the uncorrected claims in place. Kept here as the record of the correction, and
-as a draft if the material is ever posted to a forum again.
+**Status:** the thread this reply was written for was removed by a moderator on 2026-10-21
+("Deleted as requested"). The material was then reposted as a standalone thread, rewritten
+to lead with the prior art rather than the old claims:
+https://xdaforums.com/t/fire-os-7-7-1-7-the-home-key-is-eaten-by-amazoninputswitchservice-and-two-working-redirects-measured-1-3s-vs-6-3s.4805824/
+
+Kept here as the record of what the first version got wrong, and as a draft if the
+material is ever posted again.
 
 Plain text on purpose — XenForo does not render markdown reliably.
 
