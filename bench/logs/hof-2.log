@@ -1,0 +1,9 @@
+10-21 21:13:59.423 I/am_pause_activity(  538): [0,48474037,org.xbmc.kodi/.Main,userLeaving=true]
+10-21 21:13:59.508 I/am_resume_activity(  538): [0,265245972,334,com.amazon.tv.launcher/.ui.HomeActivity_vNext]
+10-21 21:14:00.312 I/am_activity_launch_time(  538): [0,265245972,com.amazon.tv.launcher/.ui.HomeActivity_vNext,832,832]
+10-21 21:14:01.057 I/HomeOnFire(22286): Redirected Home (from org.xbmc.kodi). Launched tv.shelf.home
+10-21 21:14:01.668 I/HomeOnFire(22286): Mask shown for deferred launch of tv.shelf.home
+10-21 21:14:04.646 I/HomeOnFire(22286): Target tv.shelf.home appeared 3589ms after the launch, cls=android.widget.FrameLayout
+10-21 21:14:05.487 I/HomeOnFire(22286): Mask teardown cap reached, fading without a confirmed content window
+10-21 21:14:06.173 I/am_activity_launch_time(  538): [0,242518547,tv.shelf.home/.Home,1778,1498]
+10-21 21:14:06.173 I/ActivityManager(  538): Displayed tv.shelf.home/.Home: +1s778ms (total +1s498ms)

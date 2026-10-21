@@ -1,0 +1,10 @@
+10-21 21:15:21.134 I/am_pause_activity(  538): [0,159916268,org.xbmc.kodi/.Main,userLeaving=true]
+10-21 21:15:21.185 I/am_resume_activity(  538): [0,265245972,334,com.amazon.tv.launcher/.ui.HomeActivity_vNext]
+10-21 21:15:21.803 I/shelf-guard(25704): window com.amazon.tv.launcher/com.amazon.tv.launcher.ui.HomeActivity_vNext
+10-21 21:15:21.806 I/shelf-guard(25704): stock home (com.amazon.tv.launcher.ui.HomeActivity_vNext): switching to Shelf
+10-21 21:15:21.868 I/am_resume_activity(  538): [0,242518547,335,tv.shelf.home/.Home]
+10-21 21:15:21.900 I/shelf-guard(25704): window tv.shelf.home/android.view.View
+10-21 21:15:22.193 I/shelf-guard(25704): window tv.shelf.home/tv.shelf.home.Home
+10-21 21:15:22.258 I/shelf-guard(25704): window tv.shelf.home/tv.shelf.home.Home
+10-21 21:15:22.324 I/am_activity_launch_time(  538): [0,242518547,tv.shelf.home/.Home,427,427]
+10-21 21:15:22.367 I/ActivityManager(  538): Displayed tv.shelf.home/.Home: +427ms
