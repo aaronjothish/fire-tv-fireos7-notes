@@ -1,9 +1,11 @@
-# Reply to post in the existing XDA thread
+# Reply posted to the XDA thread (since deleted)
 
-Thread: https://xdaforums.com/t/guide-custom-launcher-debloat-on-fire-os-7-7-x-why-home-key-hijack-no-longer-works.4805822/
+**Status:** the thread and this reply were both removed by a moderator on 2026-10-21,
+"Deleted as requested" — the original poster asked for it to be taken down rather than
+leave the uncorrected claims in place. Kept here as the record of the correction, and
+as a draft if the material is ever posted to a forum again.
 
-Posted as a follow-up (threads cannot be deleted). Plain text — XenForo does not render
-markdown reliably.
+Plain text on purpose — XenForo does not render markdown reliably.
 
 ---
 
